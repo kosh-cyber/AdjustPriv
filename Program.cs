@@ -71,7 +71,7 @@ namespace AdjustPriv
             hProcess = OpenProcess(0x001F0FFF, false, PID);
             if (hProcess == null)
             {
-                Console.WriteLine("Can't not open Process");
+                Console.WriteLine("Can't open Process");
                 Environment.Exit(2);
             }
 
